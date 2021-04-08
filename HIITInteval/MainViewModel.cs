@@ -8,6 +8,7 @@ namespace HIITInteval
 {
     public class MainViewModel : ObservableObject
     {
+
         #region Constructors
         public MainViewModel()
         {
