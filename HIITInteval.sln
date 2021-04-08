@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HIITInteval.Android", "HIITInteval.Android\HIITInteval.Android.csproj", "{3D8F7010-E9DB-4C26-A50C-1452A42CFDB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HIITInteval", "HIITInteval\HIITInteval.csproj", "{EDA76D06-CFA4-4000-BC68-F2863BE5FAB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D8F7010-E9DB-4C26-A50C-1452A42CFDB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D8F7010-E9DB-4C26-A50C-1452A42CFDB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D8F7010-E9DB-4C26-A50C-1452A42CFDB1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3D8F7010-E9DB-4C26-A50C-1452A42CFDB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D8F7010-E9DB-4C26-A50C-1452A42CFDB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D8F7010-E9DB-4C26-A50C-1452A42CFDB1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{EDA76D06-CFA4-4000-BC68-F2863BE5FAB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDA76D06-CFA4-4000-BC68-F2863BE5FAB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDA76D06-CFA4-4000-BC68-F2863BE5FAB3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EDA76D06-CFA4-4000-BC68-F2863BE5FAB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDA76D06-CFA4-4000-BC68-F2863BE5FAB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDA76D06-CFA4-4000-BC68-F2863BE5FAB3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54D43422-D50D-4AE9-A9E0-E9E3ECF15C7B}
+	EndGlobalSection
+EndGlobal

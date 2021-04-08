@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+   xmlns="http://xamarin.com/schemas/2014/forms"
+   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+   x:Class="HIITInteval.MainPage">
+   <StackLayout Padding="15">
+      <Label Text="Tempo por volta" />
+      <TimePicker
+         Format="mm:ss"
+         Time="{Binding LapTime}"
+         Unfocused="FieldsUnfocused" />
+
+      <Label Text="Número de voltas total" />
+      <Entry
+         Keyboard="Numeric"
+         Text="{Binding NumberOfLaps}"
+         Unfocused="FieldsUnfocused" />
+
+      <Label
+         HorizontalTextAlignment="Center"
+         VerticalOptions="EndAndExpand"
+         FontSize="Medium">
+         <Label.FormattedText>
+            <FormattedString>
+               <Span Text="Tempo restante" />
+               <Span Text="&#10;" />
+               <Span Text="{Binding LapTimeLeft, StringFormat='{0:c}'}" />
+               <Span Text="&#10;" />
+               <Span Text="Voltas restantes" />
+               <Span Text="&#10;" />
+               <Span Text="{Binding LapsLeft, StringFormat='Voltas restantes: {0:n0}'}" />
+            </FormattedString>
+         </Label.FormattedText>
+      </Label>
+
+      <Button
+         VerticalOptions="EndAndExpand"
+         Text="Iniciar Timer"
+         Command="{Binding StartTimerCommand}" />
+      <Button
+         Text="Parar Timer"
+         Command="{Binding StopTimerCommand}" />
+      <Button
+         Text="Resetar Timer"
+         Command="{Binding ResetTimerCommand}"
+         IsEnabled="{Binding ResetEnabled}" />
+   </StackLayout>
+</ContentPage>
